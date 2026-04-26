@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="ui is a focused interface studio for durable product screens, design systems, and production-ready frontend work."
+    />
+    <title>ui | Interface Studio</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header" aria-label="Primary">
+      <a class="brand" href="#top" aria-label="ui home">
+        <span class="brand-mark" aria-hidden="true">ui</span>
+        <span class="brand-name">ui</span>
+      </a>
+      <nav class="nav-links" aria-label="Site">
+        <a href="#work">Work</a>
+        <a href="#capabilities">Capabilities</a>
+        <a href="#system">System</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Switch color theme" aria-pressed="false">
+        <span class="theme-icon" aria-hidden="true">◐</span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero" id="main-content" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Interface studio / production UI</p>
+          <h1 id="hero-title">Sharper product surfaces without breaking the app underneath.</h1>
+          <p class="hero-lede">
+            ui shapes frontend surfaces around real workflows: clear hierarchy, reliable controls,
+            responsive layouts, and design choices that survive production constraints.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button primary" href="#work">See the workflow</a>
+            <a class="button secondary" href="#system">Review the system</a>
+          </div>
+          <dl class="hero-proof" aria-label="Build principles">
+            <div>
+              <dt>01</dt>
+              <dd>Entry points mapped before UI changes</dd>
+            </div>
+            <div>
+              <dt>02</dt>
+              <dd>Controls stay wired or leave the page</dd>
+            </div>
+            <div>
+              <dt>03</dt>
+              <dd>Available checks stay visible</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="hero-visual" aria-label="Layered interface preview">
+          <canvas id="interface-canvas" width="720" height="560"></canvas>
+          <div class="visual-shell" aria-hidden="true">
+            <div class="visual-toolbar">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="visual-head">
+              <span>Route inventory</span>
+              <strong>Static frontend</strong>
+            </div>
+            <div class="visual-grid" aria-hidden="true">
+              <span class="visual-block tall"></span>
+              <span class="visual-block"></span>
+              <span class="visual-block"></span>
+              <span class="visual-block wide"></span>
+            </div>
+            <dl class="visual-metrics">
+              <div>
+                <dt>Entrypoint</dt>
+                <dd>index.html</dd>
+              </div>
+              <div>
+                <dt>Runtime</dt>
+                <dd>Vanilla JS</dd>
+              </div>
+              <div>
+                <dt>Style</dt>
+                <dd>CSS system</dd>
+              </div>
+            </dl>
+          </div>
+          <div class="visual-panel panel-a">
+            <span>Brand</span>
+            <strong>ui preserved</strong>
+          </div>
+          <div class="visual-panel panel-b">
+            <span>Behavior</span>
+            <strong>Theme persists</strong>
+          </div>
+          <div class="visual-panel panel-c">
+            <span>Proof</span>
+            <strong>Smoke ready</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="proof-strip" aria-label="Current implementation proof">
+        <span>Dependency-free static site</span>
+        <span>Anchor navigation</span>
+        <span>Persisted theme control</span>
+        <span>Canvas interface asset</span>
+      </section>
+
+      <section class="section" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <p class="eyebrow">Work model</p>
+          <h2 id="work-title">The design pass starts where the app actually starts.</h2>
+        </div>
+        <div class="work-grid">
+          <article class="work-card">
+            <span class="card-index">01</span>
+            <h3>Map the route</h3>
+            <p>Find the real entrypoints, runtime contracts, and provider boundaries before changing UI.</p>
+          </article>
+          <article class="work-card">
+            <span class="card-index">02</span>
+            <h3>Upgrade the surface</h3>
+            <p>Improve layout, rhythm, contrast, and responsive behavior while keeping brand signals intact.</p>
+          </article>
+          <article class="work-card">
+            <span class="card-index">03</span>
+            <h3>Prove the result</h3>
+            <p>Run available checks and keep any untested live-provider paths explicit until credentials exist.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="capabilities-section" id="capabilities" aria-labelledby="capabilities-title">
+        <div class="capabilities-intro">
+          <p class="eyebrow">Capabilities</p>
+          <h2 id="capabilities-title">A tighter surface, not a decorative wrapper.</h2>
+          <p>
+            The upgrade lane is intentionally practical: architecture first, visual system second,
+            then cleanup and proof so the site stays honest after the polish lands.
+          </p>
+        </div>
+        <div class="capability-grid">
+          <article>
+            <span>Architecture</span>
+            <h3>Interface architecture</h3>
+            <p>Route maps, state boundaries, component lanes, and entrypoint-aware implementation plans.</p>
+          </article>
+          <article>
+            <span>System</span>
+            <h3>Visual systems</h3>
+            <p>Color, spacing, type, panels, focus states, and responsive structure tuned to the existing brand.</p>
+          </article>
+          <article>
+            <span>Cleanup</span>
+            <h3>Production cleanup</h3>
+            <p>Dead controls, vague copy, unused paths, and misleading claims are removed or made real.</p>
+          </article>
+          <article>
+            <span>Proof</span>
+            <h3>Smoke proof</h3>
+            <p>Available build, static, and browser checks are run after changes so gaps stay visible.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="system-section" id="system" aria-labelledby="system-title">
+        <div>
+          <p class="eyebrow">System</p>
+          <h2 id="system-title">A compact system that keeps the work legible.</h2>
+          <p>
+            The page uses direct labels, stable spacing, clear contrast, and controls that either perform
+            a real action or stay out of the interface.
+          </p>
+        </div>
+        <dl class="system-list">
+          <div>
+            <dt>Navigation</dt>
+            <dd>Anchor links move to real sections on the page.</dd>
+          </div>
+          <div>
+            <dt>Theme</dt>
+            <dd>The theme control persists the selected color mode in local storage.</dd>
+          </div>
+          <div>
+            <dt>Proof</dt>
+            <dd>The local smoke check verifies files, anchors, controls, and responsive breakpoints.</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Build from the real app, then make it sharper.</h2>
+        </div>
+        <p>
+          This site keeps the current brand name and a dependency-free frontend path that builds without
+          external services.
+        </p>
+        <a class="button secondary" href="#work">Back to workflow</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>ui</span>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

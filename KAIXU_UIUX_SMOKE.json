@@ -1,0 +1,40 @@
+{
+  "name": "kaixu-uiux-smoke-v4",
+  "repoType": "STATIC_HTML",
+  "timestamp": "2026-04-26T14:37:26.310Z",
+  "packageManager": "npm_or_unknown",
+  "packageScripts": [
+    "build",
+    "smoke",
+    "test"
+  ],
+  "frontendFileCount": 3,
+  "sampledFrontendFiles": [
+    "src/main.js",
+    "src/styles.css",
+    "index.html"
+  ],
+  "uiSignals": {
+    "buttons": 1,
+    "forms": 0,
+    "likelyHandlersOrRealLinks": 4,
+    "hashOnlyLinks": 0,
+    "placeholderMatches": 0
+  },
+  "checks": {
+    "skill_file_agents": true,
+    "skill_file_legacy": true,
+    "install_directive": true,
+    "install_sources": true,
+    "agent_file": true,
+    "codex_mcp_config": false,
+    "mcp_example": true,
+    "smoke_script": true,
+    "no_theater_script": true,
+    "frontend_files_detected": true,
+    "build_script_present_or_static": true,
+    "no_obvious_placeholder_text": true,
+    "no_hash_only_links": true
+  },
+  "passed": false
+}

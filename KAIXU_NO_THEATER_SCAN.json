@@ -1,0 +1,28 @@
+{
+  "name": "kaixu-no-theater-scan-v4",
+  "timestamp": "2026-04-26T14:58:52.063Z",
+  "mode": "client-code-default",
+  "ignored": [
+    ".agents",
+    ".claude",
+    ".codex",
+    ".git",
+    ".kaixu",
+    ".mcp",
+    ".next",
+    ".output",
+    ".reference",
+    ".skills",
+    "build",
+    "coverage",
+    "dist",
+    "docs",
+    "kaixu-uiux-pro-max-skill-v3",
+    "kaixu-uiux-pro-max-skill-v4",
+    "node_modules",
+    "templates"
+  ],
+  "findingCount": 0,
+  "findings": [],
+  "passed": true
+}

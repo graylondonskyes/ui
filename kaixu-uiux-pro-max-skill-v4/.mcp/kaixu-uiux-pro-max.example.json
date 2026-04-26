@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp"]
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@latest"]
+    },
+    "kaixu-filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "."],
+      "disabledByDefault": true
+    },
+    "magic-mcp": {
+      "command": "node",
+      "args": ["tools/magic-mcp/dist/index.js"],
+      "disabledByDefault": true
+    }
+  }
+}

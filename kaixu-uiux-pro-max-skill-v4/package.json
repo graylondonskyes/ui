@@ -1,0 +1,12 @@
+{
+  "name": "kaixu-uiux-pro-max-skill-pack",
+  "version": "4.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "install:repo": "bash scripts/install-kaixu-uiux-pro-max-v4.sh --project-mcp",
+    "smoke": "node scripts/kaixu-uiux-smoke.mjs",
+    "smoke:theater": "node scripts/kaixu-no-theater-scan.mjs",
+    "smoke:mcp": "node scripts/verify-codex-mcp.mjs"
+  }
+}
